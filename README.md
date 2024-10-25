@@ -6,3 +6,5 @@
 * gitignore
 * prettier
 * env.sample
+* 0000
+* folder structure
