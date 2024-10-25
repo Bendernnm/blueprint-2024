@@ -5,3 +5,4 @@
 * package.json & package-lock.json
 * gitignore
 * prettier
+* env.sample
