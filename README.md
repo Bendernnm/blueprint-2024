@@ -6,5 +6,5 @@
 * gitignore
 * prettier
 * env.sample
-* 0000
+* eslint
 * folder structure
