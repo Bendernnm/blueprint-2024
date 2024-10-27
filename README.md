@@ -7,4 +7,5 @@
 * prettier
 * env.sample
 * eslint
+* tsconfig
 * folder structure
