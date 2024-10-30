@@ -1,10 +1,8 @@
 import http from 'http';
-import express from 'express';
+import app from './api';
 import CONFIG from "../config";
 
-
-export default () => {
-    const app = express();
+export default (): void => {
     const server = http.createServer(app);
 
     server.listen(CONFIG.PORT, CONFIG.HOST, () => {
