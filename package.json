@@ -11,7 +11,7 @@
     "eslint": "eslint . --ignore-path .eslintignore",
     "eslint-fix": "eslint . --fix --ignore-path .eslintignore",
     "build": "tsc",
-    "start": "node dist/index.js",
+    "start": "tsc && node dist/index.js",
     "start:sample": "node dist/__sample.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
